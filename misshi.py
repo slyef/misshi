@@ -12,12 +12,12 @@ while True:
         print('Enter the equation:', end=' ')
 
         try:
-            print(kanu.solve_single_linear_equation(input()))
-        except kanu.NonLinearEquationError:
+            print(misshi.solve_single_linear_equation(input()))
+        except misshi.NonLinearEquationError:
             print('You entered a non-linear equation. Misshi can only solve linear equations!')
     elif choice == '2':
         print('Enter the expression:', end=' ')
-        print(kanu.all_together_now(input()))
+        print(misshi.all_together_now(input()))
     elif choice == '3':
         print('Thank you for using Misshi!\n')
         break
